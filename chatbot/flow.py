@@ -91,7 +91,7 @@ def get_fallback_response(user_message: str) -> str:
         return "Our clinic is open Monday to Friday, 9 AM to 5 PM."
     
     else:
-        return "Thank you for your message. I'm here to help with appointment booking and general healthcare information. How can I assist you?"
+        return "Thank you for your message. I'm here to help with appointment booking. How can I assist you?"
 
 def chatbot_flow(user_message: str) -> str:
     """
