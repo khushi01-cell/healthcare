@@ -1,0 +1,20 @@
+# Healthcare Chatbot Dependencies
+# 
+# This file lists all Python packages required for the healthcare chatbot project.
+# The chatbot uses LangChain for AI integration, FastAPI for the web API,
+# and various supporting libraries for functionality.
+#
+# Core Dependencies:
+# - langchain: Main framework for building LLM applications
+# - langchain-openai: OpenAI integration for LangChain
+# - langchain-ollama: Ollama integration for local model support
+# - fastapi: Modern web framework for building APIs
+# - uvicorn: ASGI server to run FastAPI applications
+# - openai: Official OpenAI Python client
+
+langchain>=0.1.0
+langchain-openai>=0.0.8
+langchain-ollama>=0.1.0
+fastapi>=0.100.0
+uvicorn>=0.22.0
+openai>=1.0.0
